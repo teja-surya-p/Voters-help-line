@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+.wrapper{
+  width: 1170px;
+  margin:auto;
+}
+
+.navigation{
+  padding-left: 800px;
+  list-style:none;
+  margin-top: 20px;
+
+}
+
+.navigation li{
+  display: inline-block;
+}
+
+.navigation li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.navigation li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+.logo img{
+  width: 100px;
+  float:left;
+  height: auto;
+}
+
+
+div.login-page{
+  width: 400px;
+  margin:100px auto 0px auto;
+  padding-left: 70%;
+}
+
+.input-group{
+  top:380px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+h1{
+  color: aliceblue;
+}
+.input-field{
+  width: 100%;
+  padding: 20px 0;
+  margin: 10px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transperent;
+}
+
+.submit-btn{
+  width: 85%;
+  padding: 20px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right,#bbb5dd,#ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.diffreg{
+  width: 1170px;
+  margin:auto;
+}
+
+.arrange{
+  padding-right: 800px;
+  list-style:none;
+  margin-top: 20px;
+
+}
+
+.arrange li{
+  display: block;
+}
+
+.arrange li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.arrange li a:hover{
+  background: #fff;
+  color: #333;
+}

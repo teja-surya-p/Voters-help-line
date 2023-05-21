@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      VOTERS HELPLINE
+    </title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+    body {
+
+      border:2px solid black;
+      padding:70px;
+      background-image: url('4448.jpg');
+      background-repeat: no-repeat;
+      background-size: 1500px 1000px;
+
+    }
+    </style>
+  </head>
+  <body>
+
+      <header>
+          <div class="main">
+            <div class="navbar">
+            <div class="logo">
+              <img src="logo11 .jpg" alt="">
+
+            </div >
+            <ul>
+              <li  style='color:yellow';><a href="#">HOME</li>
+              <li><a href="practise.html "> About </a></li>
+              <li><a href="contactus.html"> Contact </a></li>
+              <!--<li><button class='loginbutton' oneclick="document.getElementById('login-form').style.display='block'"
+              style="width:auto;">Login</button></li>
+            </ul>-->
+          </div>
+          
+
+          </div>
+          <div class="title">
+            <h1>VOTERS HELPLINE</h1>
+          </div>
+      </header>
+      <div id='login-form' class="login-page">
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+          </div>
+          <div class="social-icons">
+            <img src="gp.png";
+          </div>
+              <form action="login.php" method="POST" id="login" class='input-group'>
+               <input type="text" name="emailid" class='input-field' placeholder="Email ID"required><br><br>
+               <input type="password" name="pass" class='input-field' placeholder="Enter Password"required>
+               <br><br>
+               <input type="checkbox" class='check-box'><span>Remember Password</span>
+               <br><br>
+              <input class="submit-btn" name="login-btn" type="submit" value="login">
+             </form>
+             <form id="register" action="login.php" method="POST" class='input-group'>
+               <input type="text" name="fname" id="name" class="input-field" placeholder="Enter your First name" >
+
+               <input type="text" name="lname" id="name" class="input-field" placeholder="Enter your Last name" >
+
+               <input type="number" name="age" id="name" class="input-field" placeholder="How old are you:" >
+
+               <!--<input type="radio" name="gender" id="male">
+               &nbsp;
+               <span id='male'>Male</span>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="radio" name="gender" id="female">
+               &nbsp;
+               <span id='female'>Female</span>
+               <br><br>-->
+
+               <input type="text" name="email" class='input-field' placeholder="Email ID"required>
+               <input type="password" name="pass" class='input-field' placeholder="Enter Password"required>
+               <input type="password"  name="repass" class='input-field' placeholder="ReEnter Password"required><br>
+
+               <input type="checkbox" class='check-box'><span>Remember Password</span>
+               <br><br>
+               <button type="submit" name="register-btn" class="submit-btn">Register</button>
+            </form>
+             <!-- <form id='register' class=" input-group" >
+
+                 <input type="text" name="fname" id="name" placeholder="Enter your First name" >
+                 <br><br>
+
+                 <input type="text" name="fname" id="name" placeholder="Enter your Last name" >
+                 <br><br>
+
+                 <input type="number" name="age" id="name" placeholder="How old are you:" >
+                 <br><br>
+                 <input type="radio" name="gender" id="male">
+                 &nbsp;
+                 <span id='male'>Male</span>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="radio" name="gender" id="female">
+                 &nbsp;
+                 <span id='female'>Female</span>
+                 <br><br>
+                 <input type="email" name="email" id="name" placeholder="Enter your valid Email" >
+                 <br><br>
+
+                 &nbsp;&nbsp;&nbsp;
+                 <input type="number" name="age" id="name" placeholder="Enter your Mobile number:" >
+                 <br><br>
+                 <label>Password</label><br>
+                 <input type="password" class='input-field' placeholder="Enter Password"required>
+                 <br><br>
+                 <label>Reenter password</label><br>
+                 <input type="password" class='input-field' placeholder="ReEnter Password"required>
+                 <br><br>
+
+                 <button type="submit"  class='submit-btn'>SIGN UP</button>
+             <br>
+           </form> -->
+              </div>
+            </div>
+
+
+            <script type="text/javascript">
+            var x=document.getElementById("login");
+            var y=document.getElementById("register");
+            var z=document.getElementById("btn");
+
+            function register(){
+              x.style.left="-400px";
+              y.style.left="50px";
+              z.style.left="110px";
+            }
+
+            function login(){
+              x.style.left="50px";
+              y.style.left="450px";
+              z.style.left="0";
+            }
+
+            </script>
+
+
+
+          </script>
+  </body>
+</html>
